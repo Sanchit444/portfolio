@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Sanchit Gharge</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Sanchit Gharge</span
+            ><br />
+            Software Engineer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a href="" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="" class="home__social-icon"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="assets/img/port4.jfif"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div  class="about__container bd-grid">
+          
+          <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="about__img">
+            <img src="assets/img/PORT.jfif" alt="" />
+          </div>
+
+          <div data-aos="fade-left" 
+          data-aos-offset="500"
+          data-aos-duration="500">
+            <h2 class="about__subtitle">I'am Sanchit</h2>
+            <p  class="about__text">
+              I'm an experienced software engineer who constantly seeks out innovative solutions to everyday problems.I've analytical thinking and collaboration skill.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+          <div >
+            <h2 class="skills__subtitle" >Profesional Skills</h2>
+            <p class="skills__text">
+             I've knowledge about these skills and apart from these skills I've analytical thinking and collaboration skill.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">NodeJs</span>
+              </div>
+              <div class="skills__bar skills__node"></div>
+              <div>
+                <span class="skills__percentage">50%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">ReactJs</span>
+              </div>
+              <div class="skills__bar skills__react"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== EDUCATION =====-->
+
+      <section class="eudcation section" id="edu">
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="container">
+
+      
+
+          
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- <h3 class="resume-title">Sumary</h3>
+                <div class="resume-item pb-0">
+                  <h4>Alice Barkley</h4>
+                  <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                  <p>
+                  <ul>
+                    <li>Portland par 127,Orlando, FL</li>
+                    <li>(123) 456-7891</li>
+                    <li>alice.barkley@example.com</li>
+                  </ul>
+                  </p>
+                </div> -->
+      
+                
+                <div class="resume-item">
+                  <h4>B.E, Computer Science &amp Engineering</h4>
+                  <h5>2020 - Present</h5>
+                  <p><em>Vidyalankar Institute of Technology, Mumbai</em></p>
+                  <p>Persuing a Bachelor of Engineering 4 years course in Computer Science and Engineering.</p>
+                </div>
+                <div class="resume-item">
+                  <h4>Higher Secondary Schooling</h4>
+                  <h5>2018 - 2020</h5>
+                  <p><em></em></p>
+                  <p>12th, Maharashtra State Board, scored 82.7%</p>
+                </div>
+                
+                
+              </div>
+      
+              <div class="col-lg-6">
+                <div class="resume-item">
+                  <h4>Secondary Schooling</h4>
+                  <h5>2016 - 2018</h5>
+                  <p><em>Shetakari Shiskhan Sanstha's High School Ghansoli
+                  </em></p>
+                  <p>10th, Maharashtra State Board, scored 81.8%</p>
+                </div>
+              </div>
+            </div>
+          </div> 
+          </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Project</h2>
+
+        <div class="work__container bd-grid"> 
+          <a href="" > Travel Que
+            <img src="assets/img/travel.jpg" alt="" class="work__img"/>
+          </a>
+          <a href="" >Course Management System
+            <img src="assets/img/PNS-1.png" alt="" class="work__img"/>
+          </a>
+          <a href="" >E-commerce
+            <img src="assets/img/e-comm.webp" alt="" class="work__img"/>
+          </a>
+        </div>
+      </section>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input"/>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Send"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
